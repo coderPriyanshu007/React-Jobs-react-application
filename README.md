@@ -34,6 +34,14 @@ React Jobs is a single-page application built with React, Vite, and Tailwind CSS
     ```bash
     npm run server
 
+## Gallery
+  ![{799DDF54-E846-44C6-90DE-8177505127BE}](https://github.com/user-attachments/assets/7307b5f4-60b1-43eb-a7a6-7e3b8da0f4b3)
+  ![{296A0B6E-6CC0-40D6-8278-8DED41260F15}](https://github.com/user-attachments/assets/18ad0f2a-3ce9-4564-9f01-473bd02fd506)
+  ![{8472755F-4E38-4955-B369-FD594181FCB8}](https://github.com/user-attachments/assets/1f38e42f-ca2e-4fbe-a670-77afc5a44f17)
+
+
+
+
 ## Usage
 
     -> For Job Seekers: Browse and filter job listings to find a React job that suits your needs.
