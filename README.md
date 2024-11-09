@@ -21,8 +21,8 @@ React Jobs is a single-page application built with React, Vite, and Tailwind CSS
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/react-jobs.git
-   cd react-jobs
+   git clone https://github.com/coderPriyanshu007/React-Jobs-react-application.git
+   cd React-Jobs-react-application
 2. **Install dependencies**
     ```bash
     npm install
