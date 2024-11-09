@@ -44,7 +44,7 @@ React Jobs is a single-page application built with React, Vite, and Tailwind CSS
 
 ## Usage
 
-    -> For Job Seekers: Browse and filter job listings to find a React job that suits your needs.
+  For Job Seekers: Browse and filter job listings to find a React job that suits your needs.
     
     
-    -> For Employers: Add a job listing to reach React developers looking for new opportunities.
+  For Employers: Add a job listing to reach React developers looking for new opportunities.
