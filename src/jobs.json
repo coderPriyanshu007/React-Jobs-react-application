@@ -85,17 +85,17 @@
       }
     },
     {
-      "id": "d52a",
-      "title": "adas",
+      "id": "a171",
+      "title": "React Front-End",
       "type": "Full-Time",
-      "description": "asdsa",
-      "location": "asda",
-      "salary": "$125K - 150K",
+      "description": "Need a experienced front end developer using react bootstrap",
+      "location": "Dehradun",
+      "salary": "Over $200K",
       "company": {
-        "name": "asdasd",
-        "description": "asd",
-        "contactEmail": "asdasd@gmail.com",
-        "contactPhone": "123123123"
+        "name": "PERU Developers",
+        "description": "Develop react based applications and websites",
+        "contactEmail": "PeruDev@gmail.com",
+        "contactPhone": "+91-7078006886"
       }
     }
   ]

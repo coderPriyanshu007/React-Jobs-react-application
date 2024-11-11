@@ -6,7 +6,7 @@ const AddJobPage = ({ submitJob }) => {
   
   const navigate = useNavigate();
 
-  const [formValues, setFormValues] = useState({
+  const [jobValues, setJobValues] = useState({
     type: 'Full-Time',
     title: '',
     description: '',
@@ -22,7 +22,7 @@ const AddJobPage = ({ submitJob }) => {
   const changeHandler = (e) => {
 
     const { name, value } = e.target;
-    setFormValues((prevValues) => ({
+    setJobValues((prevValues) => ({
       ...prevValues,
       [name]: value
     }));
@@ -32,21 +32,21 @@ const AddJobPage = ({ submitJob }) => {
   const submitForm = (e) => {
     e.preventDefault();
     const newJob = {
-      title: formValues.title,
-      type: formValues.type,
-      description: formValues.description,
-      location: formValues.location,
-      salary:formValues.salary,
+      title: jobValues.title,
+      type: jobValues.type,
+      description: jobValues.description,
+      location: jobValues.location,
+      salary:jobValues.salary,
       company:{
-        name: formValues.company,
-        description: formValues.company_description,
-        contactEmail: formValues.contact_email,
-        contactPhone: formValues.contact_phone
+        name: jobValues.company,
+        description: jobValues.company_description,
+        contactEmail: jobValues.contact_email,
+        contactPhone: jobValues.contact_phone
       }
     }
     
     submitJob(newJob);
-    return navigate('/jobs')
+    navigate('/jobs')
   }
 
   return (
