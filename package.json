@@ -1,5 +1,6 @@
 {
   "name": "react-crash-course",
+  "quokka": {"pro":true,"debug":true},
   "private": true,
   "version": "0.0.0",
   "type": "module",
