@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const AddJobPage = ({ submitJob }) => {
-  
+
   const navigate = useNavigate();
 
   const [jobValues, setJobValues] = useState({
@@ -20,7 +21,6 @@ const AddJobPage = ({ submitJob }) => {
 
 
   const changeHandler = (e) => {
-
     const { name, value } = e.target;
     setJobValues((prevValues) => ({
       ...prevValues,
@@ -28,24 +28,32 @@ const AddJobPage = ({ submitJob }) => {
     }));
 
   }
-
   const submitForm = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     const newJob = {
       title: jobValues.title,
       type: jobValues.type,
       description: jobValues.description,
       location: jobValues.location,
-      salary:jobValues.salary,
-      company:{
+      salary: jobValues.salary,
+      company: {
         name: jobValues.company,
         description: jobValues.company_description,
         contactEmail: jobValues.contact_email,
         contactPhone: jobValues.contact_phone
       }
     }
-    
+
     submitJob(newJob);
+    toast.success('Added Successfully', {
+      theme: "light",
+      autoClose: 1500,
+      hideProgressBar: true,
+      style: {
+        backgroundColor: "#5314f5",
+        color: 'white'
+      }
+    });
     navigate('/jobs')
   }
 
