@@ -6,7 +6,6 @@ export default defineConfig({
   base:"/React-Jobs-react-application",
   plugins: [react()],
   server: {
-    port: 3000,
     proxy:{
       '/api': {
         target : 'https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server',
