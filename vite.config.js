@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy:{
       '/api': {
-        target : 'https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server',
+        target : 'https://my-json-server.typicode.com/coderPriyanshu007/React-Jobs-react-application',
         changeOrigin :true,
     rewrite: (path) => path.replace(/^\/api/,'')
       }
