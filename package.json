@@ -1,5 +1,6 @@
 {
   "name": "react-crash-course",
+  "homepage": "https://coderpriyanshu007.github.io/",
   "quokka": {
     "pro": true,
     "debug": true
@@ -14,7 +15,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "server": "json-server --watch src/jobs.json --port 8000"
+    "server": "json-server --watch https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server/jobs "
   },
   "dependencies": {
     "react": "^18.3.1",
