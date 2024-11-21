@@ -14,7 +14,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "server": "https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server "
+    "server": "json-server --watch https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server   --port 5000"
   },
   "dependencies": {
     "react": "^18.3.1",
