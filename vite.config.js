@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy:{
       '/api': {
-        target : 'http://localhost:5000',
+        target : 'https://my-json-server.typicode.com/coderPriyanshu007/mockend-json-server',
         changeOrigin :true,
     rewrite: (path) => path.replace(/^\/api/,'')
       }
